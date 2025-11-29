@@ -5,8 +5,13 @@
 __pycache__/
 
 # large data and outputs
-data/
-outputs/
+data/*
+!data/CSVs
+!data/Normal
+!data/Pneumonia
+data/Normal/*
+data/Pneumonia/*
+outputs/predicted_images
 
 # IDE files
 .idea/
