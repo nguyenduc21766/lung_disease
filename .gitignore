@@ -1,0 +1,12 @@
+# virtual env
+.venv/
+
+# python cache
+__pycache__/
+
+# large data and outputs
+data/
+outputs/
+
+# IDE files
+.idea/
